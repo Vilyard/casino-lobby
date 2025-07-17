@@ -1,4 +1,4 @@
-import { CasinoGameLobby } from "@/components/games/CasinoGameLobby";
+import CasinoGameLobby from "@/components/features/games/CasinoGameLobby";
 
 export default function Home() {
   return <CasinoGameLobby />;

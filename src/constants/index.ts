@@ -37,6 +37,18 @@ export const FOOTER_MAIN_MESSAGES = {
   ESTABLISHED: "EST. 2024",
   GAMING_HUB: "Gaming Hub",
   CONNECT: "Connect",
+  EST: "EST.",
+} as const;
+
+export const GAME_CARD_CONTEXT = {
+  BY: "By",
+  PREMIUM: "PREMIUM",
+  PLAY_NOW: "PLAY NOW",
+} as const;
+
+export const GAME_CARD_HEADER = {
+  NEW: "NEW",
+  HOT: "HOT",
 } as const;
 
 export const HEADER_MESSAGES = {
@@ -60,6 +72,7 @@ export const PLACEHOLDER_MESSAGES = {
   PLAY_SUCCESS: "🎮 Starting {gameName}! Good luck!",
   FAVORITE_ADDED: "{gameName} added to favorites!",
   FAVORITE_REMOVED: "{gameName} removed from favorites!",
+  PREMIUM_CASINO_GAMES: "Premium Casino Games",
 } as const;
 
 export const UI_CONFIG = {

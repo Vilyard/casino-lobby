@@ -21,7 +21,7 @@ export const FooterBottomSection: React.FC = () => {
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-sm">
           <div className="text-center sm:text-left">
             <p className="text-yellow-200/60 font-medium">
-              © <span id="copyright-year">{currentYear}</span>
+              © <span id="copyright-year"> {currentYear} </span>
               {FOOTER_BOTTOM_MESSAGES.ROYAL_CASINO_CRAFTED}
             </p>
             <p className="text-yellow-400/40 text-xs mt-1">

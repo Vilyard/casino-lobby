@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FOOTER_MAIN_MESSAGES } from "@/constants";
 
 export const FooterMainContent: React.FC = () => {
+  const [estYear, setEstYear] = useState(2024);
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    setEstYear(currentYear - 1);
+  }, []);
+
   const navigationLinks = [
     "Casino Games",
     "Live Dealers",
@@ -30,7 +36,9 @@ export const FooterMainContent: React.FC = () => {
           </div>
         </div>
         <div className="vip-badge inline-block">
-          <span className="text-xs font-black tracking-wider">EST. 2024</span>
+          <span className="text-xs font-black tracking-wider">
+            {FOOTER_MAIN_MESSAGES.EST} {estYear}
+          </span>
         </div>
       </div>
 
