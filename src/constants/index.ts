@@ -40,15 +40,28 @@ export const FOOTER_MAIN_MESSAGES = {
   EST: "EST.",
 } as const;
 
+export const FILTER_CONTROLS = {
+  FILTER_GAMES: "Filter Games",
+  FAVORITES_ONLY: "Favorites Only",
+  CLEAR_ALL: "Clear All",
+} as const;
+
 export const GAME_CARD_CONTEXT = {
   BY: "By",
   PREMIUM: "PREMIUM",
   PLAY_NOW: "PLAY NOW",
+  OUT_OF_FIVE_STARS: "out of 5 stars",
 } as const;
 
 export const GAME_CARD_HEADER = {
   NEW: "NEW",
   HOT: "HOT",
+  PLAY: "Play",
+} as const;
+
+export const GAME_GRID_MESSAGES = {
+  SHOWING_GAMES: "Showing {gamesLength} of {totalGames} games",
+  SHOW_ALL_GAMES: "Show all games",
 } as const;
 
 export const HEADER_MESSAGES = {
@@ -73,6 +86,8 @@ export const PLACEHOLDER_MESSAGES = {
   FAVORITE_ADDED: "{gameName} added to favorites!",
   FAVORITE_REMOVED: "{gameName} removed from favorites!",
   PREMIUM_CASINO_GAMES: "Premium Casino Games",
+  NO_GAMES_FOUND: "No Games Found",
+  RESET_FILTERS: "RESET FILTERS",
 } as const;
 
 export const UI_CONFIG = {
